@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.underLine {
+	@apply  absolute 
+	top-[3.5rem] 
+	left-1/2 
+	-translate-x-1/2 
+	w-[50%] 
+	md:w-[100%] 
+	h-[0.2em]
+	bg-red-600
+}
+
